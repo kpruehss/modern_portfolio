@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive sass based portfolio website from scratch",
   "main": "index.js",
+  "homepage": "https://kpruehss.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Karsten Pruehss",
   "license": "MIT",
